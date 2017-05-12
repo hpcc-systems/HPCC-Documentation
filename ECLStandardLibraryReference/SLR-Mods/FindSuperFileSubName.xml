@@ -51,5 +51,5 @@
 
   <para>Example:</para>
 
-  <programlisting format="linespecific">A := STD.File.GetSuperFileSubName('~CLASS::RT::IN::SF1', 'Sue');    //get position of sub-file Sue</programlisting>
+  <programlisting format="linespecific">A := STD.File.FindSuperFileSubName('~CLASS::RT::IN::SF1', '~Sue');    //get position of sub-file Sue</programlisting>
 </sect1>
